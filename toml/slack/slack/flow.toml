@@ -1,0 +1,6 @@
+[inbound]
+connector = "Slack"
+action = "send message"
+[outbound]
+connector = "Slack"
+action = "send message"
