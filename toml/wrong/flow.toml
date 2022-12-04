@@ -1,0 +1,7 @@
+[inbound]
+connector = "Reminder"
+schedule = "Alarm Clock"
+rate = "1"
+[outbound]
+connector = "Slack"
+action = "send message"

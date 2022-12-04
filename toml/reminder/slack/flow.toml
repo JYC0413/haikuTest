@@ -1,0 +1,10 @@
+[inbound]
+connector = "Reminder"
+schedule = "Alarm Clock"
+rate = "Yearly"
+month = 3
+date = 12
+hour = 0
+[outbound]
+connector = "Slack"
+action = "send message"
